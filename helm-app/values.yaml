@@ -2,7 +2,7 @@ env: production
 replicaCount: 3
 image:
   repository: "zohflux.azurecr.io/zohflux"
-  tag: "7a6d17b"
+  tag: 58019cd
   pullPolicy: "Always"
 imagePullSecrets: acrcred
 nameOverride: ""
